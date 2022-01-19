@@ -1,0 +1,52 @@
+ul {
+  list-style: none;
+  margin-top: 0%;
+  color: white;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: 0%;
+  padding: 9px 0px 12px 0px;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+
+  padding: 12px 25px 12px 10px;
+}
+
+.col-12 {
+  background-color: #333333;
+  height: 44px;
+}
+
+a {
+  color: #cfcece;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  transition: 0.75s ease-in-out;
+}
+
+.apple-icon {
+  color: #cfcece;
+  font-size: 17px;
+}
+
+.apple-icon:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  transition: 0.75s ease-in-out;
+}
+
+.search-icon img {
+  width: 16px;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  transition: 0.75s ease-in-out;
+}
