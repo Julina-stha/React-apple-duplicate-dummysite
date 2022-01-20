@@ -2,6 +2,8 @@ import './App.css';
 import Header from './Header';
 import FirstMainContent from './FirstMainContent';
 import SecondContent from './SecondContent';
+import ThirdContent from './ThirdContent';
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <FirstMainContent />
       <SecondContent />
+      <ThirdContent />
     </div>
   );
 }
