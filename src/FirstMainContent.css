@@ -1,0 +1,70 @@
+.main-container img {
+  position: absolute;
+  display: block;
+  width: 1349px;
+  height: 592px;
+  object-fit: cover;
+  margin-top: -16%;
+  zoom: 1;
+  z-index: -1;
+}
+
+.container {
+  background-color: #fbfbfd;
+}
+
+h1 {
+  display: block;
+  margin-top: 3.5%;
+  font-size: 58px;
+  line-height: 143px;
+  font-weight: 500;
+  letter-spacing: -2.5px;
+}
+
+.h1andh2 {
+  text-decoration: none;
+  color: #1d1d1f;
+}
+
+.h1andh2:hover {
+  color: #1d1d1f;
+}
+
+.ohsopro {
+  margin-top: -3%;
+  font-weight: 450;
+  font-size: 27.5px;
+  letter-spacing: -0.75px;
+}
+
+.sub-text {
+  font-size: 21px;
+  margin-top: 0%;
+  letter-spacing: -0.75px;
+}
+
+#sub-text2 {
+  text-decoration: none;
+  color: #1582ef;
+}
+
+#sub-text2:hover {
+  text-decoration: underline;
+}
+
+#sub-text3 {
+  text-decoration: none;
+  color: #1582ef;
+  margin-left: 40px;
+}
+
+#sub-text3:hover {
+  text-decoration: underline;
+}
+
+#divider {
+  color: #1582ef;
+  font-size: 20px;
+  margin-left: 5px;
+}
