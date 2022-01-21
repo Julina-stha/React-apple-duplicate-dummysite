@@ -1,6 +1,5 @@
 .main-container img {
   position: absolute;
-  display: block;
   width: 1349px;
   height: 592px;
   object-fit: cover;
@@ -25,6 +24,7 @@ h1 {
 .h1andh2 {
   text-decoration: none;
   color: #1d1d1f;
+  text-align: center;
 }
 
 .h1andh2:hover {

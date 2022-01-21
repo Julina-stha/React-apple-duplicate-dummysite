@@ -10,8 +10,7 @@
 }
 
 .secondMainContentHeader {
-  display: block;
-  margin: 0 auto;
+  text-align: center;
   position: relative;
   top: 430px;
 }
