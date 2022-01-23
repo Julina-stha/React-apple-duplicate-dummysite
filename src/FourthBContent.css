@@ -1,0 +1,58 @@
+.fourthB-container img {
+  position: absolute;
+  display: block;
+  margin-top: 133.7%;
+  margin-left: 13px;
+  width: 49%;
+  height: 580px;
+  object-fit: cover;
+  zoom: 1;
+  z-index: -1;
+}
+
+.valentineContentHeader {
+  text-align: center;
+  position: absolute;
+  color: #602d62;
+  top: 2393px;
+  left: 200px;
+}
+
+.valentineDay {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.5px;
+}
+
+#gift {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  line-height: 49.5px;
+}
+
+.fourthB-container .homepodMiniImg {
+  margin-left: 51%;
+  position: absolute;
+  display: block;
+  margin-top: 133.7%;
+  width: 48%;
+  height: 580px;
+  object-fit: cover;
+  zoom: 1;
+  z-index: -1;
+}
+
+.homepodMiniContentHeader {
+  text-align: center;
+  position: absolute;
+  color: black;
+  top: 2393px;
+  left: 900px;
+}
+
+.homePodMini {
+  font-size: 45px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
