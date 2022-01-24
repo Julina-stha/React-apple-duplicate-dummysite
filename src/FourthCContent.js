@@ -23,19 +23,19 @@ export default function FourthCContent() {
       <a href="https://tv.apple.com/gb/movie/umc.cmc.4wpfk1xmi22h3zyv4a10lj1tw?ign-itscg=10000&ign-itsct=atv-apl_hp-pmo_wch-Macbeth-220113/" className='tv+Content' target="_blank" rel="noreferrer">
         <div className='tvPlusContentHeader'>
           <div className='tvPlus'><i class="fab fa-apple"></i>tv+</div>
-          <div className='title-small'>THE <img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" id='flower1' />
+          <div className='title-small'>THE <img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" alt='flower' id='flower1' />
             <span className='macbeth'>TRAGEDY</span>
-            <span className='title-small'><img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" id='flower1'/> OF</span>
+            <span className='title-small'><img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" alt='flower' id='flower1'/> OF</span>
           </div>
           <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/ffffff/external-leaf-jungle-vitaliy-gorbachev-lineal-vitaly-gorbachev-1.png" className='leafImage'/>
           <div className='titleName'>MAcBETH</div>
           <div className='director'>Directed by Joel Coen</div>
           <div id='tvPlusblue-links'>
             <a href='https://tv.apple.com/gb/movie/umc.cmc.4wpfk1xmi22h3zyv4a10lj1tw?ign-itscg=10000&ign-itsct=atv-apl_hp-pmo_wch-Macbeth-220113' id='streamNow' target="_blank" rel="noreferrer">Stream now </a>
-            <span><img src="https://img.icons8.com/ios-filled/18/ffffff/circled-play.png" className='stream'/></span>
+            <span><img src="https://img.icons8.com/ios-filled/18/ffffff/circled-play.png" alt='stream-button' className='stream'/></span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/promos/tv-plus-macbeth/promo_macbeth__e671onn69r8m_large.jpg" alt="tv+" className='tvPlusImg'></img>
+        <img src="https://www.apple.com/v/home/aj/images/promos/tv-plus-macbeth/promo_macbeth__e671onn69r8m_large.jpg" alt="tvPlus" className='tvPlusImg'></img>
       </a>
     </section>
   )
