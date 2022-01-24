@@ -6,9 +6,7 @@ import ThirdContent from './ThirdContent';
 import FourthAContent from './FourthAContent';
 import FourthBContent from './FourthBContent';
 import FourthCContent from './FourthCContent';
-
-
-
+import LastContent from './LastContent';
 
 function App() {
   return (
@@ -20,6 +18,7 @@ function App() {
       <FourthAContent />
       <FourthBContent />
       <FourthCContent />
+      <LastContent />
 
     </div>
   );
