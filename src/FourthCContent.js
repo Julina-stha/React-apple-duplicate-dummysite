@@ -27,7 +27,7 @@ export default function FourthCContent() {
             <span className='macbeth'>TRAGEDY</span>
             <span className='title-small'><img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" alt='flower' id='flower1'/> OF</span>
           </div>
-          <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/ffffff/external-leaf-jungle-vitaliy-gorbachev-lineal-vitaly-gorbachev-1.png" className='leafImage' alt ='leaf-image'/>
+          <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/20/ffffff/external-leaf-jungle-vitaliy-gorbachev-lineal-vitaly-gorbachev-1.png" className='leafImage' alt ='leaf'/>
           <div className='titleName'>MAcBETH</div>
           <div className='director'>Directed by Joel Coen</div>
           <div id='tvPlusblue-links'>
