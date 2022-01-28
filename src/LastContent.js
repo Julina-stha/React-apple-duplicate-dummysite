@@ -1,5 +1,6 @@
 import React from 'react';
 import './LastContent.css';
+import LastFiveColumns from './LastFiveColumns';
 
 
 export default function LastContent() {
@@ -15,19 +16,24 @@ export default function LastContent() {
         </ul>
       </div>
       <hr></hr>
-      <div className='col-2'>
+      <div className='last-five-columns'>
         <ul className='lastContent-links'> 
-          <li>Shop and Learn</li>
-          <li>Services</li>
-          <li>Apple Store</li>
-          <li>For Business</li>
-          <li>Apple Values</li>
-          <li>Shop and Learn</li>
-          <li>Services</li>
-          <li>Apple Store</li>
-          <li>For Business</li>
-          <li>Apple Values</li>
+          <LastFiveColumns />
         </ul>
+        <footer>
+          More ways to shop: <span id='lastBlue-links'>find an Apple Store</span> or <span id='lastBlue-links'>other retailer</span> near you. Or call 0800 048 0408.
+          <hr></hr>
+          Copyright © 2022 Apple Inc. All rights reserved.
+          <ul>
+            <li>Privacy Policy<span>|</span></li>
+            <li>Use of Cookies<span>|</span></li>
+            <li>Terms of Use<span>|</span></li>
+            <li>Sales and Refunds<span>|</span></li>
+            <li>Legal<span>|</span></li>
+            <li  className='siteMap'>Site Map</li>
+            <li>United Kingdom</li>
+          </ul>
+        </footer>
       </div>
     </section>
   )
