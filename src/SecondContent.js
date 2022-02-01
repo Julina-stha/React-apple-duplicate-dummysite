@@ -17,7 +17,6 @@ export default function SecondContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg" alt="iphone13"></img>
       </a>
     </div>
   )

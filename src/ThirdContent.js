@@ -19,7 +19,6 @@ export default function ThirdContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_large.jpg" alt="watch-series7"></img>
       </a>
     </div>
   )

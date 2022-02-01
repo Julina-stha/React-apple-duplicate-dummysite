@@ -1,4 +1,8 @@
-ul {
+a {
+  text-decoration: none;
+}
+
+nav ul {
   list-style: none;
   text-align: center;
   margin-top: 0%;
@@ -12,7 +16,6 @@ ul {
 
 li {
   display: inline;
-  text-decoration: none;
 
   padding: 12px 31.5px 12px 10px;
 }
@@ -29,10 +32,19 @@ li {
 
 #header-link {
   color: #cfcece;
-  text-decoration: none;
 }
 
 #header-link:hover {
+  color: whitesmoke;
+  transition: 0.75s ease-in-out;
+}
+
+.shoppingCart {
+  color: #cfcece;
+  width: 15px;
+}
+
+.shoppingCart:hover {
   color: whitesmoke;
   transition: 0.75s ease-in-out;
 }
@@ -56,4 +68,35 @@ li {
   cursor: pointer;
   color: whitesmoke;
   transition: 0.75s ease-in-out;
+}
+
+@media only screen and (max-width: 414px) {
+  .col-12 {
+    max-width: 414px;
+    height: 48px;
+  }
+
+  nav ul {
+    display: block;
+    font-size: 21px;
+    padding: 9px 0px 9px 0px;
+  }
+
+  #header-link {
+    visibility: hidden;
+  }
+  #apple-icon {
+    font-size: 20px;
+    display: block;
+    margin-top: -8%;
+  }
+  .search-icon {
+    visibility: hidden;
+  }
+  .shoppingCart {
+    display: block;
+    margin-top: -35.5%;
+    margin-left: 92%;
+    width: 16px;
+  }
 }

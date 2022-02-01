@@ -3,13 +3,13 @@ import './FirstMainContent.css';
 
 export default function FirstMainContent() {
   return (
-    <div className='main-container'>
-      <a href="https://www.apple.com/uk/iphone-13-pro/" className='h1andh2' target="_blank" rel="noreferrer">
+    <section className='first-container'>
+      <a href="https://www.apple.com/uk/iphone-13-pro/" className='iPhone13ProContent' target="_blank" rel="noreferrer">
         <div className='firstMainContentHeader'>
-          <h1 className='iPhone13Pro'>
+          <h1>
           iPhone 13 Pro
           </h1>
-          <h2 className='ohsopro'>
+          <h2>
             Oh. So. Pro.
           </h2>
           <div className='sub-text'>
@@ -19,8 +19,7 @@ export default function FirstMainContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg" alt="iphone13Pro"></img>
       </a>
-    </div>
+    </section>
   )
 }

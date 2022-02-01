@@ -5,7 +5,7 @@ import './FourthCContent.css';
 export default function FourthCContent() {
   return (
     <section className='fourthC-container'>
-      <a href="https://www.apple.com/uk/ipad-mini/" className='valentineContent' target="_blank" rel="noreferrer">
+      <a href="https://www.apple.com/uk/ipad-mini/" className='iPadContent' target="_blank" rel="noreferrer">
         <div className='iPadMiniContentHeader'>
           <div className='iPad'>iPad 
             <span className="coloredFont">  mini</span>
@@ -20,7 +20,7 @@ export default function FourthCContent() {
         </div>
         <img src="https://www.apple.com/v/home/aj/images/promos/ipad-mini/promo_ipad_mini__spq4zjcuuaie_large.jpg" alt="iPadMini" className='iPadMiniImage'></img>
       </a>
-      <a href="https://tv.apple.com/gb/movie/umc.cmc.4wpfk1xmi22h3zyv4a10lj1tw?ign-itscg=10000&ign-itsct=atv-apl_hp-pmo_wch-Macbeth-220113/" className='tv+Content' target="_blank" rel="noreferrer">
+      <a href="https://tv.apple.com/gb/movie/umc.cmc.4wpfk1xmi22h3zyv4a10lj1tw?ign-itscg=10000&ign-itsct=atv-apl_hp-pmo_wch-Macbeth-220113/" className='tvPlusContent' target="_blank" rel="noreferrer">
         <div className='tvPlusContentHeader'>
           <div className='tvPlus'><i class="fab fa-apple"></i>tv+</div>
           <div className='title-small'>THE <img src="https://img.icons8.com/small/12/ffffff/spa-flower.png" alt='flower' id='flower1' />

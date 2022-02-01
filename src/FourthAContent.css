@@ -1,9 +1,17 @@
+.fourthA-container a {
+  text-decoration: none;
+}
+
+.fourthA-container {
+  position: relative;
+}
+
 .fourthA-container img {
-  position: absolute;
   display: block;
-  margin-top: 91.2%;
-  margin-left: 13px;
-  width: 49%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  max-width: 48%;
   height: 560px;
   object-fit: cover;
   zoom: 1;
@@ -11,11 +19,13 @@
 }
 
 .fitnessContentHeader {
-  text-align: center;
   position: absolute;
+  left: 11%;
+  max-width: 48%;
+  top: 42px;
+  text-align: center;
   color: black;
-  top: 1820px;
-  left: 191px;
+  padding: 10px;
 }
 
 .fitness {
@@ -23,10 +33,6 @@
   font-weight: 500;
   letter-spacing: -1px;
   line-height: 0px;
-}
-
-a {
-  text-decoration: none;
 }
 
 #moreWays {
@@ -38,11 +44,10 @@ a {
   line-height: 26px;
 }
 
-#blue-links {
-  position: relative;
-  top: 10px;
+.fitnessContentHeader #blue-links {
   font-size: 17px;
   font-weight: 490;
+  padding-top: 5px;
 }
 
 .fitnessContent,
@@ -60,11 +65,11 @@ a {
 }
 
 .fourthA-container .macbookImg {
-  margin-left: 50.9%;
-  position: absolute;
   display: block;
-  margin-top: 91.2%;
-  width: 48.2%;
+  float: right;
+  margin-top: 1%;
+  margin-right: 1%;
+  max-width: 49%;
   height: 560px;
   object-fit: cover;
   zoom: 1;
@@ -72,10 +77,11 @@ a {
 }
 
 .macbookContentHeader {
-  text-align: center;
   position: absolute;
-  top: 1810px;
-  left: 900px;
+  text-align: center;
+  max-width: 49%;
+  right: 14%;
+  top: 50px;
   color: black;
 }
 
@@ -87,6 +93,69 @@ a {
 
 .supercharged {
   font-size: 20px;
+  padding-top: 5px;
   letter-spacing: 0px;
-  line-height: 16.5px;
+}
+
+.macbookContentHeader #blue-links {
+  font-size: 17px;
+  font-weight: 490;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+  .fourthA-container img {
+    margin-top: 3%;
+    margin-left: 0%;
+    max-width: 100%;
+    height: 500px;
+  }
+
+  .fitnessContentHeader {
+    max-width: 100%;
+    text-align: center;
+    color: black;
+    top: 176%;
+    left: 20%;
+  }
+
+  .fitness {
+    font-size: 35px;
+  }
+
+  #moreWays {
+    padding-top: 2%;
+    font-size: 17px;
+    line-height: 22.5px;
+  }
+
+  #blue-links {
+    font-size: 16px;
+  }
+
+  .fourthA-container .macbookImg {
+    margin-top: 3%;
+    margin-right: 0%;
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .macbookContentHeader {
+    left: 25%;
+    top: 567px;
+  }
+
+  .macbookPro {
+    font-size: 35px;
+  }
+
+  .supercharged {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+
+  .macbookContentHeader #blue-links {
+    font-size: 16px;
+    padding-top: 20px;
+  }
 }

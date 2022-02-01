@@ -1,15 +1,22 @@
-.main-container img {
-  position: absolute;
-  width: 1349px;
-  height: 592px;
-  object-fit: cover;
-  margin-top: -16%;
+.first-container {
+  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 550px;
   zoom: 1;
   z-index: -1;
 }
 
-.container {
-  background-color: #fbfbfd;
+.iPhone13ProContent {
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.iPhone13ProContent:hover {
+  color: #1d1d1f;
 }
 
 h1 {
@@ -21,17 +28,8 @@ h1 {
   letter-spacing: -2.5px;
 }
 
-.h1andh2 {
-  text-decoration: none;
-  color: #1d1d1f;
-  text-align: center;
-}
-
-.h1andh2:hover {
-  color: #1d1d1f;
-}
-
-.ohsopro {
+h2 {
+  display: block;
   margin-top: -3%;
   font-weight: 450;
   font-size: 27.5px;
@@ -42,10 +40,6 @@ h1 {
   font-size: 21px;
   margin-top: 0%;
   letter-spacing: -0.75px;
-}
-
-#sub-text2 {
-  text-decoration: none;
   color: #1582ef;
 }
 
@@ -54,8 +48,6 @@ h1 {
 }
 
 #sub-text3 {
-  text-decoration: none;
-  color: #1582ef;
   margin-left: 40px;
 }
 
@@ -67,4 +59,30 @@ h1 {
   color: #1582ef;
   font-size: 20px;
   margin-left: 5px;
+}
+
+@media only screen and (max-width: 414px) {
+  .first-container {
+    max-width: 100%;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
+    background-size: cover;
+    height: 560px;
+    margin-top: -5%;
+  }
+
+  .firstMainContentHeader h1 {
+    font-size: 33px;
+    padding-top: 30px;
+    letter-spacing: -1.5px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: -13%;
+  }
+
+  .first-container .sub-text {
+    padding-top: 15px;
+    font-size: 18px;
+  }
 }

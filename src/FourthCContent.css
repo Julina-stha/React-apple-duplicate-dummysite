@@ -8,12 +8,16 @@
   src: url(fontfile//EuAloniraPersonalUse-8MqqA.ttf) format("truetype");
 }
 
+.fourthC-container {
+  position: relative;
+}
+
 .fourthC-container .iPadMiniImage {
-  position: absolute;
   display: block;
-  margin-top: 177.8%;
-  margin-left: 13px;
-  width: 49%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 1%;
+  max-width: 48%;
   height: 580px;
   object-fit: cover;
   zoom: 1;
@@ -24,8 +28,8 @@
   text-align: center;
   position: absolute;
   color: black;
-  top: 2980px;
-  left: 230px;
+  top: 1200px;
+  left: 15%;
 }
 
 .iPad {
@@ -51,12 +55,16 @@
   font-size: 22px;
 }
 
+.iPadMiniContentHeader #iPadblue-links {
+  padding-top: 7%;
+}
+
 .fourthC-container .tvPlusImg {
-  margin-left: 51%;
-  position: absolute;
   display: block;
-  margin-top: 177.8%;
-  width: 48%;
+  float: right;
+  margin-right: 1%;
+  margin-top: 1%;
+  max-width: 49%;
   height: 580px;
   object-fit: cover;
   zoom: 1;
@@ -67,8 +75,8 @@
   text-align: center;
   position: absolute;
   color: white;
-  top: 3266px;
-  left: 832px;
+  left: 62%;
+  top: 1510px;
 }
 
 .tvPlus {
@@ -125,4 +133,86 @@ a #streamNow {
   position: absolute;
   top: 205px;
   left: 225px;
+}
+
+@media only screen and (max-width: 414px) {
+  .fourthC-container .iPadMiniImage {
+    margin-right: 0%;
+    margin-top: 3%;
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .iPadMiniContentHeader {
+    max-width: 100%;
+    top: 1990px;
+    left: 30%;
+  }
+
+  .iPad {
+    font-size: 40px;
+  }
+
+  .coloredFont {
+    font-size: 3rem;
+    margin-left: 1.5%;
+  }
+
+  .megapower {
+    padding-top: 2%;
+    font-size: 18px;
+  }
+
+  .iPadMiniContentHeader #iPadblue-links {
+    padding-top: 2%;
+    font-size: 14px;
+  }
+
+  .fourthC-container .tvPlusImg {
+    margin-right: 0%;
+    margin-top: 3%;
+    max-width: 100%;
+    height: 450px;
+  }
+  .tvPlusContentHeader {
+    position: absolute;
+    color: white;
+    top: 2674px;
+    left: 18%;
+  }
+
+  .tvPlus {
+    font-size: 30px;
+  }
+
+  .macbeth {
+    font-size: 18px;
+  }
+
+  .title-small {
+    font-size: 10px;
+  }
+
+  .leafImage {
+    left: 33%;
+    top: 40%;
+    width: 14px;
+  }
+
+  .titleName {
+    font-size: 30px;
+  }
+
+  .director {
+    font-size: 16px;
+  }
+
+  a #streamNow {
+    font-size: 14px;
+  }
+
+  .stream {
+    top: 158px;
+    left: 173px;
+  }
 }

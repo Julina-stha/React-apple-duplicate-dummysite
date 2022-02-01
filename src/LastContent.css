@@ -1,10 +1,8 @@
 .last-container {
-  position: absolute;
   background-color: #f5f5f7;
+  margin-top: 131.5%;
   display: block;
-  margin-top: 221.7%;
   width: 100%;
-  height: 625px;
 }
 
 .last-paragraph li {
@@ -12,11 +10,14 @@
   color: grey;
   display: block;
   text-align: left;
-  padding: 5px 225px 5px 225px;
+  font-size: 12.5px;
+  padding: 5px 160px 5px 160px;
 }
 
 .last-five-columns {
+  width: 100%;
   background-color: #f5f5f7;
+  font-size: 12.5px;
 }
 hr {
   margin: 0%;
@@ -35,7 +36,6 @@ hr {
   background-color: #f5f5f7;
 }
 .row {
-  margin-left: 133px;
   max-width: fit-content;
   flex-wrap: nowrap;
 }
@@ -99,4 +99,36 @@ footer li:hover {
 
 .siteMap {
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 414px) {
+  .last-container {
+    margin-top: 131.5%;
+  }
+  .last-paragraph li {
+    width: 100%;
+    display: block;
+    font-size: 10px;
+    padding: 5px;
+  }
+  .last-five-columns {
+    font-size: 10px;
+  }
+
+  .lastContent-links {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .row {
+    flex-direction: column;
+    height: 0%;
+  }
+  .col-6 #lastLinksTitle {
+    visibility: visible;
+    padding: 0%;
+  }
+  #last-content-links {
+    visibility: collapse;
+  }
 }
