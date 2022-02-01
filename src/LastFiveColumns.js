@@ -15,10 +15,10 @@ export default function LastFiveColumns() {
   let aboutApple = ["Newsroom", "Apple Leadership", "Career Oppoturnities", "Warranty", "Investors", "Ethics & Compliance", "Events", "European Job Creation", "Contact Apple"];
 
   return (
-    <div className='container'>
-      <div className='row'>
+    <div className='five-container'>
+      <div className='five-column'>
         <div className='col-6 col-sm-3'>
-          <div id='lastLinksTitle'>Shop and Learn</div>
+          <div id='lastLinksTitle' className='lastLink-responsive'>Shop and Learn</div>
           <div>
             {shopAndLearn.map(function (shopLearn, index) {
               return (
@@ -30,7 +30,7 @@ export default function LastFiveColumns() {
           </div>
         </div>
         <div className='col-6 col-sm-3'>
-          <div id='lastLinksTitle'>Services</div>
+          <div id='lastLinksTitle' className='lastLink-responsive'>Services</div>
           <div>
             {services.map(function (service, index) {
               return (
@@ -40,7 +40,7 @@ export default function LastFiveColumns() {
               )
             })}
           </div>
-          <div id='lastLinksTitle2'>Account</div>
+          <div id='lastLinksTitle2' className='lastLink-responsive'>Account</div>
           <div>
             {accounts.map(function (account, index) {
               return (

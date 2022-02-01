@@ -40,15 +40,7 @@
 }
 
 .fourthB-container .homepodMiniImg {
-  display: block;
-  float: right;
-  margin-top: 1%;
-  margin-right: 1%;
   max-width: 49%;
-  height: 580px;
-  object-fit: cover;
-  zoom: 1;
-  z-index: -1;
 }
 
 .homepodMiniContentHeader {

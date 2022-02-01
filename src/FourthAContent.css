@@ -65,15 +65,7 @@
 }
 
 .fourthA-container .macbookImg {
-  display: block;
-  float: right;
-  margin-top: 1%;
-  margin-right: 1%;
   max-width: 49%;
-  height: 560px;
-  object-fit: cover;
-  zoom: 1;
-  z-index: -1;
 }
 
 .macbookContentHeader {
@@ -115,8 +107,8 @@
     max-width: 100%;
     text-align: center;
     color: black;
-    top: 176%;
-    left: 20%;
+    top: 30px;
+    left: 15%;
   }
 
   .fitness {
@@ -130,7 +122,7 @@
   }
 
   #blue-links {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .fourthA-container .macbookImg {
