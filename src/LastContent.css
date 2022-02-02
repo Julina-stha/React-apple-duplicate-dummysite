@@ -82,7 +82,7 @@ hr {
 }
 
 .footerUK-hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .hidden-hr {
@@ -169,7 +169,7 @@ hr {
   }
 
   .footerUK-hidden {
-    visibility: visible;
+    display: block;
     color: #4f4f52;
     margin-bottom: 10px;
   }
