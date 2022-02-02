@@ -1,4 +1,4 @@
-.container-fluid {
+section .container-fluid {
   max-width: 100%;
   background-color: #f5f5f7;
   margin-top: 131.5%;
@@ -93,8 +93,9 @@ hr {
 
 @media only screen and (max-width: 414px) {
   .container-fluid {
-    margin-top: 697%;
-    height: 25%;
+    background-color: #f5f5f7;
+
+    margin-top: 721%;
   }
   .last-paragraph {
     font-size: 11px;
