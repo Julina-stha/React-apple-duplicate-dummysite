@@ -19,6 +19,7 @@ export default function LastFiveColumns() {
       <div className='five-column'>
         <div className='col-6 col-sm-3'>
           <div id='lastLinksTitle' className='lastLink-responsive'>Shop and Learn</div>
+          <hr className='hidden-hr'></hr>
           <div>
             {shopAndLearn.map(function (shopLearn, index) {
               return (
@@ -31,6 +32,8 @@ export default function LastFiveColumns() {
         </div>
         <div className='col-6 col-sm-3'>
           <div id='lastLinksTitle' className='lastLink-responsive'>Services</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {services.map(function (service, index) {
               return (
@@ -41,6 +44,8 @@ export default function LastFiveColumns() {
             })}
           </div>
           <div id='lastLinksTitle2' className='lastLink-responsive'>Account</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {accounts.map(function (account, index) {
               return (
@@ -52,7 +57,9 @@ export default function LastFiveColumns() {
           </div>
         </div>
         <div className='col-6 col-sm-3'>
-          <div id='lastLinksTitle'>Apple Store</div>
+          <div id='lastLinksTitle' className='lastLink-responsive'>Apple Store</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {appleStores.map(function (appleStore, index) {
               return (
@@ -64,7 +71,9 @@ export default function LastFiveColumns() {
           </div>
         </div>
         <div className='col-6 col-sm-3'>
-          <div id='lastLinksTitle'>For Business</div>
+          <div id='lastLinksTitle' className='lastLink-responsive'>For Business</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {forBusinesses.map(function (forBusiness, index) {
               return (
@@ -74,7 +83,9 @@ export default function LastFiveColumns() {
               )
             })}
           </div>
-          <div id='lastLinksTitle2'>For Education</div>
+          <div id='lastLinksTitle2' className='lastLink-responsive'>For Education</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {forEducation.map(function (forEdu, index) {
               return (
@@ -84,7 +95,9 @@ export default function LastFiveColumns() {
               )
             })}
           </div>
-          <div id='lastLinksTitle2'>For Healthcare</div>
+          <div id='lastLinksTitle2' className='lastLink-responsive'>For Healthcare</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {forHealthcare.map(function (forHealth, index) {
               return (
@@ -96,7 +109,9 @@ export default function LastFiveColumns() {
           </div>
         </div>
         <div className='col-6 col-sm-3'>
-          <div id='lastLinksTitle'>Apple Values</div>
+          <div id='lastLinksTitle' className='lastLink-responsive'>Apple Values</div>
+          <hr className='hidden-hr'></hr>
+
           <div>
             {appleValues.map(function (appleValue, index) {
               return (
@@ -106,7 +121,9 @@ export default function LastFiveColumns() {
               )
             })}
           </div>
-          <div id='lastLinksTitle2'>About Apple</div>
+          <div id='lastLinksTitle2' className='lastLink-responsive'>About Apple</div>
+          <hr className='hidden-hr'></hr>
+          
           <div>
             {aboutApple.map(function (aboutAppleInfo, index) {
               return (

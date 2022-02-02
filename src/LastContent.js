@@ -24,7 +24,8 @@ export default function LastContent() {
           <p>
             More ways to shop: <span id='lastBlue-links'>find an Apple Store</span> or <span id='lastBlue-links'>other retailer</span> near you. Or call 0800 048 0408.
           </p>
-          <hr></hr>
+          <hr className='footerP-hr'></hr>
+          <p className='footerUK-hidden'>United Kingdom</p>
           <p>Copyright © 2022 Apple Inc. All rights reserved.
             <span>
               <ul>
