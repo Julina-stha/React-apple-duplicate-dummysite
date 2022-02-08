@@ -5,7 +5,7 @@ import './FirstMainContent.css';
 
 export default function SecondContent() {
   return (
-    <div className='second-container'>
+    <section className='second-container'>
       <a href="https://www.apple.com/uk/iphone-13/" className='h3andh4' target="_blank" rel="noreferrer">
         <div className='secondMainContentHeader'>
           <h3 className='iPhone13'>iPhone 13</h3>
@@ -18,6 +18,6 @@ export default function SecondContent() {
           </div>
         </div>
       </a>
-    </div>
+    </section>
   )
 }

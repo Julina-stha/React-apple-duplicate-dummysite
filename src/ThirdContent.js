@@ -5,7 +5,7 @@ import './ThirdContent.css';
 
 export default function ThirdContent() {
   return (
-    <div className='third-container'>
+    <section className='third-container'>
       <a href="https://www.apple.com/uk/apple-watch-series-7/" className='thirdContentLink'target="_blank" rel="noreferrer">
         <div className='thirdContentHeader'>
           <div className='new'>New</div>
@@ -20,6 +20,6 @@ export default function ThirdContent() {
           </div>
         </div>
       </a>
-    </div>
+    </section>
   )
 }

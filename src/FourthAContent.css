@@ -20,7 +20,7 @@
 
 .fitnessContentHeader {
   position: absolute;
-  left: 11%;
+  left: 13%;
   max-width: 48%;
   top: 42px;
   text-align: center;
@@ -72,7 +72,7 @@
   position: absolute;
   text-align: center;
   max-width: 49%;
-  right: 14%;
+  right: 17%;
   top: 50px;
   color: black;
 }

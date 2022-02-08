@@ -14,13 +14,13 @@ nav ul {
   letter-spacing: 0.1px;
 }
 
-li {
+nav ul li {
   display: inline;
 
   padding: 12px 31.5px 12px 10px;
 }
 
-.col-12 {
+.header {
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -37,6 +37,10 @@ li {
 #header-link:hover {
   color: whitesmoke;
   transition: 0.75s ease-in-out;
+}
+
+#menu-hidden {
+  display: none;
 }
 
 .shoppingCart {
@@ -71,8 +75,7 @@ li {
 }
 
 @media only screen and (max-width: 414px) {
-  .col-12 {
-    max-width: 414px;
+  .header {
     height: 48px;
   }
 
@@ -83,20 +86,30 @@ li {
   }
 
   #header-link {
-    visibility: hidden;
+    display: none;
   }
   #apple-icon {
     font-size: 20px;
     display: block;
     margin-top: -8%;
+    margin-right: 2em;
+  }
+
+  #menu-hidden {
+    display: inline-flex;
+    font-size: 20px;
+    margin-left: 1em;
+    margin-top: 0.2em;
+    float: left;
   }
   .search-icon {
     visibility: hidden;
   }
   .shoppingCart {
     display: block;
-    margin-top: -35.5%;
-    margin-left: 92%;
+    margin-right: 1em;
+    margin-top: -2.55em;
+    float: right;
     width: 16px;
   }
 }
