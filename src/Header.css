@@ -30,16 +30,16 @@ nav ul li {
   z-index: 1;
 }
 
-#header-link {
+.header-link {
   color: #cfcece;
 }
 
-#header-link:hover {
+.header-link:hover {
   color: whitesmoke;
   transition: 0.75s ease-in-out;
 }
 
-#menu-hidden {
+.menu-hidden {
   display: none;
 }
 
@@ -53,12 +53,12 @@ nav ul li {
   transition: 0.75s ease-in-out;
 }
 
-#apple-icon {
+.apple-icon {
   color: #cfcece;
   font-size: 17px;
 }
 
-#apple-icon:hover {
+.apple-icon:hover {
   cursor: pointer;
   color: whitesmoke;
   transition: 0.75s ease-in-out;
@@ -85,17 +85,17 @@ nav ul li {
     padding: 9px 0px 9px 0px;
   }
 
-  #header-link {
+  .header-link {
     display: none;
   }
-  #apple-icon {
+  .apple-icon {
     font-size: 20px;
     display: block;
     margin-top: -8%;
     margin-right: 2em;
   }
 
-  #menu-hidden {
+  .menu-hidden {
     display: inline-flex;
     font-size: 20px;
     margin-left: 1em;
