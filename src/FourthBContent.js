@@ -1,6 +1,10 @@
 import React from 'react';
 import './FourthBContent.css';
 import './FourthAContent.css';
+import ImageValentinesDay from './images/ValentinesDay.jpg';
+import ImageHomepodMini from './images/homePodMini.jpg';
+
+
 
 
 export default function FourthBContent() {
@@ -16,7 +20,7 @@ export default function FourthBContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="images/ValentinesDay.jpg" alt="valentines-day"></img>
+        <img src={ImageValentinesDay} alt="valentines-day"></img>
       </a>
       <a href="https://www.apple.com/uk/homepod-mini/" className='homepodMiniContent' target="_blank" rel="noreferrer">
         <div className='homepodMiniContentHeader'>
@@ -28,7 +32,7 @@ export default function FourthBContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="images/homepodMini.jpg" alt="homepodMini" className='homepodMiniImg'></img>
+        <img src={ImageHomepodMini} alt="homepodMini" className='homepodMiniImg'></img>
       </a>
     </section>
   )

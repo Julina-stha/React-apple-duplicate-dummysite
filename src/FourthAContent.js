@@ -1,5 +1,8 @@
 import React from 'react';
 import './FourthAContent.css';
+import ImageFitnessPlus from './images/fitnessPlus.jpg';
+import ImageMacbookPro from './images/macbookPro.jpg';
+
 
 
 export default function FourthContent() {
@@ -17,7 +20,7 @@ export default function FourthContent() {
             <span id='divider'>{'↗'}</span>
           </div>
         </div>
-        <img src="images/fitnessPlus.jpg" alt="fitness+"></img>
+        <img src={ImageFitnessPlus} alt="fitness+"></img>
       </a>
       <a href="https://www.apple.com/uk/macbook-pro-14-and-16/" className='macBookContent' target="_blank" rel="noreferrer">
         <div className='macbookContentHeader'>
@@ -30,7 +33,7 @@ export default function FourthContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="images/macbookPro.jpg" alt="macbookPro" className='macbookImg'></img>
+        <img src={ImageMacbookPro} alt="macbookPro" className='macbookImg'></img>
       </a>
     </section>
   )
