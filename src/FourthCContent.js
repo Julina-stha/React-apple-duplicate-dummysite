@@ -1,5 +1,8 @@
 import React from 'react';
 import './FourthCContent.css';
+import ImageIpadMini from './images/iPadMini.jpg';
+import ImageTvPlus from './images/tvPlus.jpg';
+
 
 
 export default function FourthCContent() {
@@ -18,7 +21,7 @@ export default function FourthCContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="images/iPadMini.jpg" alt="iPadMini" className='iPadMiniImage'></img>
+        <img src={ImageIpadMini} alt="iPadMini" className='iPadMiniImage'></img>
       </a>
       <a href="https://tv.apple.com/gb/movie/umc.cmc.4wpfk1xmi22h3zyv4a10lj1tw?ign-itscg=10000&ign-itsct=atv-apl_hp-pmo_wch-Macbeth-220113/" className='tvPlusContent' target="_blank" rel="noreferrer">
         <div className='tvPlusContentHeader'>
@@ -35,7 +38,7 @@ export default function FourthCContent() {
             <span><img src="https://img.icons8.com/ios-filled/18/ffffff/circled-play.png" alt='stream-button' className='stream'/></span>
           </div>
         </div>
-        <img src="images/tvPlus.jpg" alt="tvPlus" className='tvPlusImg'></img>
+        <img src={ImageTvPlus} alt="tvPlus" className='tvPlusImg'></img>
       </a>
     </section>
   )
