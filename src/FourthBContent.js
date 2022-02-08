@@ -16,7 +16,7 @@ export default function FourthBContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/uk/home/images/promos/valentines-day/promo_vday22__oz9b5x4x7ney_large.jpg" alt="valentines-day"></img>
+        <img src="images/ValentinesDay.jpg" alt="valentines-day"></img>
       </a>
       <a href="https://www.apple.com/uk/homepod-mini/" className='homepodMiniContent' target="_blank" rel="noreferrer">
         <div className='homepodMiniContentHeader'>
@@ -28,7 +28,7 @@ export default function FourthBContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/promos/homepod-mini/tile_homepod_mini__b73w4z3ljymu_large.jpg" alt="homepodMini" className='homepodMiniImg'></img>
+        <img src="images/homepodMini.jpg" alt="homepodMini" className='homepodMiniImg'></img>
       </a>
     </section>
   )

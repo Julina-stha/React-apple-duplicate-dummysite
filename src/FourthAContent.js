@@ -17,7 +17,7 @@ export default function FourthContent() {
             <span id='divider'>{'↗'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_large.jpg" alt="fitness+"></img>
+        <img src="images/fitnessPlus.jpg" alt="fitness+"></img>
       </a>
       <a href="https://www.apple.com/uk/macbook-pro-14-and-16/" className='macBookContent' target="_blank" rel="noreferrer">
         <div className='macbookContentHeader'>
@@ -30,7 +30,7 @@ export default function FourthContent() {
             <span id='divider'>{'>'}</span>
           </div>
         </div>
-        <img src="https://www.apple.com/v/home/aj/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large.jpg" alt="macbookPro" className='macbookImg'></img>
+        <img src="images/macbookPro.jpg" alt="macbookPro" className='macbookImg'></img>
       </a>
     </section>
   )

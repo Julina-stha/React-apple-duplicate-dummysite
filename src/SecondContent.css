@@ -1,6 +1,6 @@
 .second-container {
   display: block;
-  background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_large.jpg);
+  background-image: url(images/iPhone13.jpg);
   background-position: center;
   background-size: cover;
   margin-top: 1.5%;
@@ -34,7 +34,7 @@
 
 @media only screen and (max-width: 414px) {
   .second-container {
-    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+    background-image: url(images/iPhone13-min.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 3%;
