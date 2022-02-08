@@ -1,5 +1,5 @@
 .first-container {
-  background-image: url("/images/iPhone13Pro.jpg");
+  background-image: url("images/iPhone13Pro.jpg");
   background-repeat: no-repeat;
   background-position: center;
   display: block;
