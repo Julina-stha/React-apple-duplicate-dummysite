@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <nav className='header'>
       <ul className="head-content">
-        <li><a href="#" target="_blank" rel="noreferrer" id="menu-hidden"><img src="https://img.icons8.com/ios/21/ffffff/menu--v1.png"/></a></li>
+        <li><a href="#" target="_blank" rel="noreferrer" id="menu-hidden"><img src="https://img.icons8.com/ios/21/ffffff/menu--v1.png" alt='hiddenmenu'/></a></li>
         <li><a href="https://relaxed-edison-9e1993.netlify.app/" target="_blank" rel="noreferrer" id="apple-icon"><i class="fab fa-apple"></i></a></li>
         <li><a href="https://www.apple.com/uk/store" target="_blank" rel="noreferrer" id="header-link">Store</a></li>
         <li><a href="https://www.apple.com/uk/mac/" target="_blank" rel="noreferrer" id="header-link">Mac</a></li>
