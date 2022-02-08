@@ -2,7 +2,7 @@ import React from 'react';
 import './FourthBContent.css';
 import './FourthAContent.css';
 import ImageValentinesDay from './images/ValentinesDay.jpg';
-import ImageHomepodMini from './images/homePodMini.jpg';
+import ImageHomepodMini from './images/homepodMini.jpg';
 
 
 
