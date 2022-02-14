@@ -33,7 +33,6 @@ export default function LastFiveColumns() {
         <div className='col-6 col-sm-3'>
           <div id='lastLinksTitle' className='lastLink-responsive'>Services</div>
           <hr className='hidden-hr'></hr>
-
           <div>
             {services.map(function (service, index) {
               return (
@@ -45,7 +44,6 @@ export default function LastFiveColumns() {
           </div>
           <div id='lastLinksTitle2' className='lastLink-responsive'>Account</div>
           <hr className='hidden-hr'></hr>
-
           <div>
             {accounts.map(function (account, index) {
               return (

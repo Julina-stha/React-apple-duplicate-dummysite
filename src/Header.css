@@ -101,6 +101,8 @@ nav ul li {
     margin-left: 1em;
     margin-top: 0.2em;
     float: left;
+    border: none;
+    background-color: #333333;
   }
   .search-icon {
     visibility: hidden;

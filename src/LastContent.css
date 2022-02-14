@@ -96,6 +96,10 @@ hr {
   margin: 0%;
 }
 
+#lastLinksTitle2 {
+  padding-top: 25px;
+}
+
 @media only screen and (max-width: 414px) {
   .container-fluid {
     margin-top: 5em;
@@ -126,6 +130,7 @@ hr {
 
   #lastLinksTitle2 {
     margin: 0%;
+    padding-top: 5px;
   }
 
   .five-column {
